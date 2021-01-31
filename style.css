@@ -1,0 +1,383 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  line-height: 1.6;
+}
+
+.clr{
+  clear: both;
+}
+
+.menu-icon{
+      width: 20px;
+      height: 2px;
+      background-color: white;
+      margin-top: 2.5px;
+}  
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.page-element{
+  height: 100vh;
+  width: 100%;
+}
+
+.mini-title{
+  font-size: 20px;
+  color: rgb(85,87,92)
+}
+
+.primary-title{
+  font-size: 30px;
+  font-weight: bolder;
+  color:black
+}
+
+.info-style{
+  font-size: 15px;
+  color: rgb(31, 32, 34);
+  font: bolder;
+}
+
+/*btn*/
+.white-btn{
+  font-size: 12px;
+  color: white;
+  border:3px solid white ;
+  background-color: rgba(0,0,0,0);
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-weight: bolder;
+}
+
+.white-btn:hover{
+  color: black;
+  background-color: white; 
+}
+
+.black-btn{
+  font-size: 12px;
+  color: black;
+  border:3px solid black ;
+  background-color: rgba(0,0,0,0);
+  border-radius: 20px;
+  padding: 7px 25px;
+  font-weight: bolder;
+}
+
+.black-btn:hover{
+  color: white;
+  background-color: black; 
+}
+
+.circle-btn{
+  background: rgba(0,0,0,0);
+  border: none;
+  width: 150px;   
+  font-weight: lighter;
+}
+
+
+.plus-sigh{
+  border: 3px solid black;
+  border-radius: 100%;
+  background: rgba(0,0,0,0);
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.plus-sigh:hover{
+  fill: white;
+  background: black;
+  border: white;
+}
+
+.plus-text{
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 14px;
+}
+
+.question-btn{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.253) ;
+  cursor: pointer;
+}
+
+/*main page*/
+.main-page{
+  background: url(https://www.tesla.com/sites/default/files/model3-new/hero/model-3-hero-desktop-v2.jpg) no-repeat center center/cover;
+}
+
+
+.logo{
+  position: fixed;
+  float: left;
+  height: 10px;
+  margin-left: 15px;
+  margin-top: 7px;
+  z-index: 10;
+}
+
+.main-page:hover .logo{
+  fill: rgb(248, 36, 36);
+}
+.header{
+  padding-top: 7px;
+  height: 30px;
+  width: 100%vh;
+  position: relative;
+}
+.toolbar{
+  position: absolute;
+  left: 30%;
+}
+
+.toolbar li, .options li{
+  display: inline;
+  padding-left: 10px;
+}
+
+.header a{
+  font-size: 14px;
+  font-weight: bold;
+}
+.options{
+  position: absolute;
+  right: 0px;
+}
+
+.menu-icon-final{
+  float: right;
+  padding-top: 5px;
+  margin-right: 7px;
+  width: 19%;
+  
+}
+
+.page-one-info{
+  color: white;
+  width: 650px;
+  height: 450px;
+  position: relative;
+  margin: 2% 25%;
+}
+
+.model-title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 250px;
+}
+
+
+.seperator{
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 60px;
+}
+
+
+.container ul{
+  display: inline;
+}
+
+
+
+.info-page-one{
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.info-page-one .white-btn{
+  margin-top: 15px;
+}
+
+
+.speed-icon{
+  width: 35px;
+  float: left;
+  fill: #fff;
+  margin-top: 15px;
+  margin-right:10px;
+}
+
+.prime-i{
+  font-size: 30px;
+  font-weight: bolder;
+  display: inline;
+}
+
+
+.text-i{
+  font-size: 12px;
+  text-align: center;
+}
+.white-arr{
+  width: 25px;
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+}
+
+.white-arr:hover{
+  bottom: 0px;
+}
+
+.send-msg{
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+}
+
+/*side bar + in main menu*/
+.side-bar ,.side-bar-2{
+  display: none;
+}
+
+.main-page:hover .side-bar li,.page-two:hover .side-bar-2 li,.page-tree:hover .side-bar li{
+  color: rgba(0,0,0,0);
+  font-weight: bolder;
+  font-size: 10px;
+  margin-bottom: 5px;
+  padding-left: 7px;
+  border-left: 0.5px rgba(255, 255, 255, 0.5) solid;
+} 
+
+.main-page:hover .side-bar, .page-two:hover .side-bar-2,.page-tree:hover .side-bar{
+  display: block;
+  position: fixed;
+  top: 100px;
+  left: 15px;
+  line-height: 2;
+}
+
+.main-page:hover .side-bar .current,.page-tree:hover .side-bar .current{
+  border-left:3px white solid;
+}
+
+
+.main-page:hover .side-bar li:hover,.page-tree:hover .side-bar li:hover{
+  color: white;
+}
+
+
+/*page two*/
+.page-two{
+  background: #ffffff;
+}
+
+
+.safety-info{
+  min-height: 100%;
+  float: left;
+  width: 35%;
+  padding: 30px 0px 0px 30px;
+}
+.page-two img{
+  min-height: 100%;
+  display: block;
+  background-color: rgb(244,244,244);
+  float: right;
+  width: 65%;
+}
+
+.page-two-info{
+  margin-top: 50px;
+  margin-bottom: 25%;
+  max-width: 90%;
+}
+
+/*page two side bar*/
+
+.page-two:hover .side-bar-2 li{
+  border-left: 0.5px rgba(0, 0, 0, 0.5) solid;
+} 
+
+.side-bar-2 ul{
+  list-style: none;
+}
+
+
+.page-two:hover .side-bar-2 .current{
+  border-left:3px black solid;
+}
+
+
+.page-two:hover .side-bar-2 li:hover{
+  color: black;
+}
+
+
+/*page 3*/
+.page-tree{
+  background-color: #fff;
+}
+
+.page-tree-head{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  color: white;
+
+}
+
+.page-tree-info{
+  height: 50%;
+  width: 80%;
+  position: absolute;
+  top:50%;
+  left: 10%;
+  list-style: none;
+}
+
+
+.page-tree-info li{
+  max-width: 270px;
+  text-align: left;
+}
+
+
+.container-page-tree{
+  position: relative;
+  width: 100%;
+  height: 50%;
+
+}
+.performance-info{
+  position: absolute;
+  top:50px;
+  left: 100px;
+  height: 200px;
+}
+
+.preform-title{
+  float: left;
+  margin-right: 20px;
+}
+
+.preform-title .primary-title{
+  margin-bottom: 20px;
+}
+
+.primary-info{
+  float: right;
+  max-width: 85%;
+  overflow: auto;
+}
+
+.seperator-bigger{
+  height: 100px;
+}
